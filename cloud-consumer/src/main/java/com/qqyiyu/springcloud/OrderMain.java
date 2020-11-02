@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-public class PaymentMain {
+public class OrderMain {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMain.class,args);
+        SpringApplication.run(OrderMain.class,args);
     }
 }
